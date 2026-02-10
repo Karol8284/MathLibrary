@@ -7,15 +7,6 @@ namespace MathLibrary.Arithmetic
 {
     public class Basic
     {
-        //public static T Sum<T>(T a, T b) where T : INumber<T>
-        //{
-        //    return a + b;
-        //}
-        //public static T Sub<T>(T a, T b) where T : INumber<T>
-        //{
-        //    return a - b;
-        //}
-
         public static T Sum<T>(params T[] values) where T : INumber<T>
         {
             T sum = T.Zero;
