@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Algebra\" />
     <Folder Include="Geometry\" />
     <Folder Include="Staristics\" />
     <Folder Include="Trigonometry\" />

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
+using System;
 
 namespace MathLibrary.Arithmetic
 {
@@ -81,9 +82,9 @@ namespace MathLibrary.Arithmetic
         {
             double v = double.CreateChecked(value);
             double p = double.CreateChecked(power);
-            
             double result = Math.Pow(v, p);
             return T.CreateChecked(result);
         }
+
     }
 }

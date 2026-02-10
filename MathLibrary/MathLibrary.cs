@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace MathLibrary
 {
-    public static class Math
+    public static class Maty
     {
         public static T Sum<T>(params T[] values) where T : INumber<T>
         {
