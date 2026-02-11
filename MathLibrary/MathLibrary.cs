@@ -1,10 +1,12 @@
-﻿using MathLibrary.Arithmetic;
+﻿using MathLibrary.Algebra;
+using MathLibrary.Arithmetic;
 using System.Numerics;
 
 namespace MathLibrary
 {
     public static class Maty
     {
+        // Start Aritmetic.Basic.cs
         public static T Sum<T>(params T[] values) where T : INumber<T>
         {
             return Basic.Sum(values);
@@ -33,6 +35,43 @@ namespace MathLibrary
         {
             return Basic.Abs(value);
         }
+        // END Aritmetic.Basic.cs
+
+        // START Algebra
+        // START BasicAlgebra.cs
+        public static T Sqrt<T>(T x) where T : INumber<T>
+        {
+            return BasicAlgebra.Sqrt(x);
+        }
+        public static T Pow<T>(T x, T y) where T : INumber<T>
+        {
+            return BasicAlgebra.Pow(x, y);
+        }
+        public static T Exp<T>(T x) where T : INumber<T>
+        {
+            return BasicAlgebra.Exp(x);
+        }
+        public static T Log<T>(T x) where T : INumber<T>
+        {
+            return BasicAlgebra.Log(x);
+        }
+        public static T Log10<T>(T x) where T : INumber<T>
+        {
+            return BasicAlgebra.Log10(x);
+        }
+
+        // END Algebra.Basic.cs
+
+        // START Geometry
+        // END Geometry
+
+        // START Algebra.Basic.cs
+        // END Algebra.Basic.cs
+
+        // START Algebra.Basic.cs
+        // END Algebra.Basic.cs
+
+
 
     }
 }

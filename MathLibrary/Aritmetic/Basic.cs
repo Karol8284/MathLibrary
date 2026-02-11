@@ -78,13 +78,6 @@ namespace MathLibrary.Arithmetic
         {
             return T.Abs(value);
         }
-        public static T Pow<T>(T value, T power) where T : INumber<T>
-        {
-            double v = double.CreateChecked(value);
-            double p = double.CreateChecked(power);
-            double result = Math.Pow(v, p);
-            return T.CreateChecked(result);
-        }
 
     }
 }
