@@ -9,31 +9,31 @@ namespace MathLibrary
         // Start Aritmetic.Basic.cs
         public static T Sum<T>(params T[] values) where T : INumber<T>
         {
-            return Basic.Sum(values);
+            return BasicArithmetic.Sum(values);
         }
         public static T Sub<T>(params T[] values) where T : INumber<T>
         {
-            return Basic.Sub(values);
+            return BasicArithmetic.Sub(values);
         }
         public static T Mul<T>(params T[] values) where T : INumber<T>
         {
-            return Basic.Mul(values);
+            return BasicArithmetic.Mul(values);
         }
         public static T Div<T>(params T[] values) where T : INumber<T>
         {
-            return Basic.Div(values);
+            return BasicArithmetic.Div(values);
         }
         public static T Min<T>(params T[] values) where T : INumber<T>
         {
-            return Basic.Min(values);
+            return BasicArithmetic.Min(values);
         }
         public static T Max<T>(params T[] values) where T : INumber<T>
         {
-            return Basic.Max(values);
+            return BasicArithmetic.Max(values);
         }
         public static T Abs<T>(T value) where T : INumber<T>
         {
-            return Basic.Abs(value);
+            return BasicArithmetic.Abs(value);
         }
         // END Aritmetic.Basic.cs
 

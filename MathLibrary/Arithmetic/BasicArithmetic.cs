@@ -6,7 +6,7 @@ using System;
 
 namespace MathLibrary.Arithmetic
 {
-    public class Basic
+    public class BasicArithmetic
     {
         public static T Sum<T>(params T[] values) where T : INumber<T>
         {
