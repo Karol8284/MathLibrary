@@ -68,8 +68,9 @@ Obsługa liczb zespolonych
 
 Dokumentacja XML do automatycznego generowania pomocy
 
-👤 Autor
+# Autor
 
-Projekt stworzony przez Karol8284. Repozytorium: GitHub – Karol8284/MathLibrary
-
+*Karol Małecki* <br>
+Konto GitHub: Karol8284. <br>
+Repozytorium: GitHub – Karol8284/MathLibrary <br>
 Biblioteka jest rozwijana hobbystycznie, ale z dbałością o jakość kodu i możliwość praktycznego zastosowania w projektach edukacyjnych i półprofesjonalnych.
