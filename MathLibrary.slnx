@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/MathLibrary.Doc/">
-    <File Path="READMY.txt" />
+    <File Path="READMY.md" />
   </Folder>
   <Project Path="MathLibrary.Demo.Console/MathLibrary.Demo.Console.csproj" />
   <Project Path="MathLibrary.Tests/MathLibrary.Tests.csproj" />
