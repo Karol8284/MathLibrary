@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/MathLibrary.Doc/">
+    <File Path="READMY.txt" />
+  </Folder>
   <Project Path="MathLibrary.Demo.Console/MathLibrary.Demo.Console.csproj" />
   <Project Path="MathLibrary.Tests/MathLibrary.Tests.csproj" />
   <Project Path="MathLibrary/MathLibrary.csproj" />
